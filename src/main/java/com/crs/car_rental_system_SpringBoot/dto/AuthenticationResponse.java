@@ -4,13 +4,8 @@ import com.crs.car_rental_system_SpringBoot.enums.UserRole;
 import lombok.Data;
 
 @Data
-public class UserDTO {
-
-    private Long id;
-
-    private String name;
-
-    private  String email;
-
+public class AuthenticationResponse {
+    private String jwt;
+    private Long userId;
     private UserRole userRole;
 }
