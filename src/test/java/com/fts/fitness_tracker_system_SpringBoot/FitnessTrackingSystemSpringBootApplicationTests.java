@@ -1,10 +1,10 @@
-package com.crs.car_rental_system_SpringBoot;
+package com.fts.fitness_tracker_system_SpringBoot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CarRentalSystemSpringBootApplicationTests {
+class FitnessTrackingSystemSpringBootApplicationTests {
 
 	@Test
 	void contextLoads() {
